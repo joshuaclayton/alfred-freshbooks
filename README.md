@@ -2,6 +2,15 @@
 
 An experimental [Alfred][] Workflow for quickly visiting [Freshbooks][].
 
+# Installing
+
+Clone the repository and symlink to Alfred's directory of workflows.
+
+```bash
+git clone https://github.com/joshuaclayton/alfred-freshbooks.git ~/dev/alfred-freshbooks
+ln -s ~/dev/alfred-freshbooks/ ~/Library/Application\ Support/Alfred\ 2/Alfred.alfredpreferences/workflows/alfred-freshbooks
+```
+
 # Ruby Version
 
 This workflow expects there to be bash script in your home directory that will
