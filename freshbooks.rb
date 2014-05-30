@@ -2,7 +2,6 @@ require_relative 'lib/client_cache'
 require_relative 'lib/client_list'
 require_relative 'lib/environment_loader'
 require_relative 'lib/alfred_responder'
-require 'rexml/document'
 
 EnvironmentLoader.run
 

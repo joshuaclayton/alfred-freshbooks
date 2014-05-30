@@ -10,7 +10,7 @@ class ClientCache
   end
 
   def write(data)
-    open(path, 'w') {|f| f.write(Oj.dump(data)) }
+    open(path, 'w') { |f| f.write(Oj.dump(data)) }
   end
 
   private

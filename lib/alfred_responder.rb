@@ -1,3 +1,5 @@
+require 'rexml/document'
+
 class AlfredResponder
   def self.run(responses)
     doc = REXML::Document.new
