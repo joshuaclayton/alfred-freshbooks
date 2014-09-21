@@ -5,8 +5,6 @@ class ClientList
   def self.retrieve
     EnvironmentLoader.run
 
-    require 'freshbooks'
-
     FreshBooks::Base.establish_connection(ENV['FRESHBOOKS_URL'], ENV['FRESHBOOKS_TOKEN'])
     FreshBooks::Client.list.to_a
   end

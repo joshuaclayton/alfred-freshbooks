@@ -1,3 +1,6 @@
+require 'bundler'
+Bundler.require :default
+
 require_relative 'lib/client_cache'
 require_relative 'lib/client_list'
 require_relative 'lib/environment_loader'

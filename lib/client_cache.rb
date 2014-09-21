@@ -1,5 +1,3 @@
-require 'oj'
-
 class ClientCache
   def initialize(path = 'cache/clients.json')
     @path = path
