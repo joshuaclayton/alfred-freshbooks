@@ -20,6 +20,7 @@ rbenv, so I have added the rbenv init code to the file:
 
 ``` bash
 # ~/.ruby-version-shim
+source ~/.bashrc
 eval "$(rbenv init - --no-rehash)"
 ```
 
