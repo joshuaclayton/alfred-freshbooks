@@ -99,19 +99,25 @@ ruby freshbooks.rb "{query}"</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>cache-freshbooks</string>
-				<key>text</key>
-				<string>Cache Freshbooks</string>
-				<key>withspace</key>
+				<key>lastpathcomponent</key>
 				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>output</key>
+				<integer>0</integer>
+				<key>removeextension</key>
+				<false/>
+				<key>sticky</key>
+				<false/>
+				<key>text</key>
+				<string>{query}</string>
+				<key>title</key>
+				<string>Cache Freshbooks</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
+			<string>alfred.workflow.output.notification</string>
 			<key>uid</key>
-			<string>99EC7729-2797-4B49-A089-21BCDDAC8606</string>
+			<string>E5D289D8-6A84-4467-9F3D-AFEA0B08AAE3</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
@@ -137,25 +143,19 @@ ruby cache_freshbooks.rb</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<false/>
-				<key>output</key>
-				<integer>0</integer>
-				<key>removeextension</key>
-				<false/>
-				<key>sticky</key>
-				<false/>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>cache-freshbooks</string>
 				<key>text</key>
-				<string>{query}</string>
-				<key>title</key>
 				<string>Cache Freshbooks</string>
+				<key>withspace</key>
+				<false/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
+			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
-			<string>E5D289D8-6A84-4467-9F3D-AFEA0B08AAE3</string>
+			<string>99EC7729-2797-4B49-A089-21BCDDAC8606</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
