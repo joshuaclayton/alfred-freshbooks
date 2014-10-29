@@ -1,5 +1,7 @@
+require 'fileutils'
+
 class ClientCache
-  def initialize(path = 'cache/clients.json')
+  def initialize(path = 'tmp/clients.json')
     @path = path
   end
 
@@ -8,6 +10,7 @@ class ClientCache
   end
 
   def write(data)
+    FileUtils.mkdir_p File.dirname(path)
     open(path, 'w') { |f| f.write(Oj.dump(data)) }
   end
 
